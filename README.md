@@ -58,11 +58,11 @@ I had to do so for my Defender X7 gamepad because Start and Select buttons were 
 ```python
 # pygamepad/gamepads/defenderx7.py
 
-from gamepad.buttons import PressButton
-from .default import Gamepad
+from ..buttons import PressButton
+from .default import Gamepad as DefaultGamepad
 
 
-class DefenderGamepad(Gamepad):
+class Gamepad(DefaultGamepad):
     class ButtonOverrides:
         BTN_START = PressButton("BTN_SELECT")
         BTN_SELECT = PressButton("BTN_START")
