@@ -38,6 +38,9 @@ if __name__ == "__main__":
     main()
 ```
 
+## Examples
+More examples can be found in the [examples](https://github.com/tinytengu/pygamepad/tree/main/examples) folder
+
 ## Q&A
 ***Ok, how do I know without opening whole module script which gamepad buttons I can use?***<br>
 Since module uses typehinting literally everywhere you just can write `gamepad.buttons` and autocomplete will show you all of existing buttons.
