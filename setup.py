@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pygamepad",
-    version="0.1",
+    version="0.2",
     description="A module that allows you to control your gamepad",
     url="http://github.com/tinytengu/pygamepad",
     author="tinytengu",
